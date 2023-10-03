@@ -1,3 +1,5 @@
+//Day-1:->
+//Module-12
 //1-> Variable
 // var a;
 // let bananaPrice = 10;
@@ -43,5 +45,56 @@
 // else{
 //     document.write("Condition false");
 // }
-var date=new Date();
-console.log(date);
+// var date=new Date();
+// console.log(date);
+
+
+//Day-2:->
+//Module-13
+
+//Array in js->
+var age=[21,23,22];
+// var index=age.indexOf(23);
+// console.log(index);
+// age.push(25);
+// console.log(age);
+// console.log(age.length);
+// age.pop();
+// console.log(age);
+// age.shift();
+// console.log(age);
+// age.unshift(20,24);
+// console.log(age);
+
+//Loops in js->
+// var n=1
+// while(n<4){
+//     console.log("loops in js");
+//     n++;
+// }
+
+// //for loop->
+// for(var i=0;i<n;i++){
+//     console.log(i);
+// }
+
+
+// //Function in js->
+// function fun(){
+//     console.log("learn function");
+// }
+
+// fun();
+
+
+//Object in js->
+var student={
+    id:106,Name:"Sohanur", Department:"cse"
+}
+console.log(student);
+var phoneNo=student["Name"];
+student.Name="Nur";
+console.log(student);
+
+
+
