@@ -145,19 +145,63 @@ var age=[21,23,22];
 
 
 //Fibonacci number->
-function prime(number){
-    for(let i=2;i<number;i++){
-        if(number%i==0){
-            console.log("not prime numeber");
-            return;
-        }
+// function prime(number){
+//     for(let i=2;i<number;i++){
+//         if(number%i==0){
+//             console.log("not prime numeber");
+//             return;
+//         }
 
-    }
-    console.log("prime number");
-}
+//     }
+//     console.log("prime number");
+// }
+//prime(5);   
 
 
-prime(5);   
+//Swap of two number
+// let a=5,b=9;
+// let temp;
+// console.log("Before swap a=",a,"b=",b);
+// temp=a;
+// a=b;
+// b=temp;
+// console.log("After swap a=",a,"b=",b);
+
+// var number=3.4532;
+// console.log(Math.floor(number));
+// console.log(Math.ceil(number));
+// console.log(Math.round(number));
+// console.log(parseInt(Math.random()*10));
+
+
+
+//find max of three number
+// var a=9,b=4,c=12;
+// var max=Math.max(a,b,c);
+// console.log(max);
+
+//Sum of all number in aarray
+// let array=[1,2,3,4,5];
+// var sum=0;
+// for(let i=0;i<array.length;i++){
+//     sum=sum+array[i];
+// }
+// console.log("sum of array is: ",sum);
+
+
+//Count the number of words->
+// var String="Hello I am Md. Sohanur Rahman";
+// let count=0;
+// for(let i=0;i<String.length;i++){
+//     if(String[i]==" "){
+//         count++;
+//     }
+// }
+// count++;
+// console.log(count);
+
+
+
 
 
 
