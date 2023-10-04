@@ -88,13 +88,76 @@ var age=[21,23,22];
 
 
 //Object in js->
-var student={
-    id:106,Name:"Sohanur", Department:"cse"
+// var student={
+//     id:106,Name:"Sohanur", Department:"cse"
+// }
+// console.log(student);
+// var phoneNo=student["Name"];
+// student.Name="Nur";
+// console.log(student);
+
+//Day-3
+//Module-14->
+// function fun(inch){
+//     var feet=inch/12;
+//     return feet;
+// }
+
+
+// console.log(fun(156));
+// console.log(fun(112));
+
+
+//Variable,Let,constants
+// let name='Sohanur';
+// const PI=3.1416;
+// // PI=9;
+// console.log(name);
+// console.log(PI);
+
+
+//Leaf year or not
+// function isLeafyear(year){
+    
+// }
+
+// //factorial of a number->
+// function fact(num){
+//     let fact=1;
+// for(let i=1;i<=5;i++){
+//     fact=fact*i;
+// }
+// return fact;
+// }
+
+// console.log(fact(5));
+
+//factorial using recursion->
+// function factorial(n){
+//     if(n==0){
+//         return 1;
+//     }
+//     else{
+//         return n*factorial(n-1);
+//     }
+// }
+// console.log(factorial(5));
+
+
+//Fibonacci number->
+function prime(number){
+    for(let i=2;i<number;i++){
+        if(number%i==0){
+            console.log("not prime numeber");
+            return;
+        }
+
+    }
+    console.log("prime number");
 }
-console.log(student);
-var phoneNo=student["Name"];
-student.Name="Nur";
-console.log(student);
+
+
+prime(5);   
 
 
 
