@@ -202,6 +202,28 @@ var age=[21,23,22];
 
 
 
+//Day-5
+//Module-16->
+// let Variable_1=40;
+// const constants=3.1416;
+// var marks=[12,23,43,45];
+// console.log(marks.length," ",marks[2]);
+// function fun(){
+//     for(let i=0;i<marks.length;i++){
+//         console.log(marks[i]);
+//     }
+// }
+// fun()
+
+function sum(n1,n2){
+    let sum=n1+n2;
+    return sum;
+}
+
+console.log(sum(10,20));
+
+
+
 
 
 
