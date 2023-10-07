@@ -215,12 +215,18 @@ var age=[21,23,22];
 // }
 // fun()
 
-function sum(n1,n2){
-    let sum=n1+n2;
-    return sum;
-}
+// function sum(n1,n2){
+//     let sum=n1+n2;
+//     return sum;
+// }
 
-console.log(sum(10,20));
+// console.log(sum(10,20));
+
+//Day-6
+
+//Module-17
+//typing.com-----website
+
 
 
 
